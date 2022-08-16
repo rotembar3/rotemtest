@@ -1,0 +1,26 @@
+---
+id: Documentation as Code
+slug: documentation-as-code
+sidebar_position: 2
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+DaC (Documentation as Code) is an approach of treating documentation like code so that documentation and code are created and maintained together. 
+
+**Docs-as-code principles include the following:**
+- Docs are part of the Version Control (Git)
+- The underlying syntax is Markdown
+- Docs can be the subject of code reviews, automated tests, and the CI process
+
+The Docs-as-code approach gives developers the benefits of a more streamlined process. This includes the ability to write and edit documents as part of the development process; documents are committed as Markdown files alongside the code; documents are naturally versioned within branches; documentation is enforced as part of PR or CI processes; documentation is available in the IDE.
+
+## Docs-as-code & Swimm 
+Swimm saves all documentation as code, which means that Swimm Docs are as easy to read as Markdown files. 
+
+
+A simple and typical editing workflow looks like this:
+1. Closer to the end of a development task, the developer commits their changes.
+2. Swimm detects that as a result of code changes, some documents need to be amended and notifies the developer. 
+3. The developer then accesses these docs and either automatically approves Swimm’s Auto-sync corrections, or decides to further edit the doc.
+4. Once done, developers commit the changes as part of the PR.

@@ -1,0 +1,34 @@
+---
+slug: release-0.9.4
+title: Swimm 0.9.4 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2022-08-15
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+
+# Swimm 0.9.4 Has Been Released!
+
+We're pleased to announce the availability of **Swimm 0.9.4**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="0.9.4" />
+
+<SwimmReleaseVideo version="0.9.4" />
+
+## New Features:
+- **Sharing Doc Drafts**- As an admin, you can now let users share doc drafts with teammates. This ability can be configured on a repository level via the `Integrations & Settings` page. The default setting is the `Local Drafts` . Once an admin selects the Cloud Drafts option, new drafts created by any user will be stored in the cloud for 30 days unless committed before then. Users can share a doc draft by clicking the share icon from the top right corner of the edit doc page and clicking on the `Copy Link` .
+
+- **Doc & Playlist Creation Hub**- Creating new docs has never been easier. Simply click the "New" button on your repo page and see all the options to start creating new documentation.
+
+
+## Improvements:
+- **Viewing and Edit Docs** - When viewing or editing a doc with snippets, the referenced files section displays only filenames without their full path. You can still hover on a filename to see the full path.
+
+- **Adding Tags** - When adding a tag from a specific doc, the list of workspace tags is ordered alphabetically.
+
+## Bug Fixes:
+- In the GitHub App, when a PR only contains a Swimm doc change without any changes to the code, no Swimm comment will be added to the PR.
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="0.9.4" />
