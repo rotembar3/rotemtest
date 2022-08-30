@@ -1,0 +1,39 @@
+---
+slug: release-0.9.5
+title: Swimm 0.9.5 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2022-08-30
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+
+# Swimm 0.9.5 Has Been Released!
+
+We're pleased to announce the availability of **Swimm 0.9.5**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="0.9.5" />
+
+<SwimmReleaseVideo version="0.9.5" />
+
+## New Features:
+- **Cloud Docs**- You can now create and store docs in the Cloud without connecting to a GitHub repository. Cloud Docs are great not just for developers but for any other roles in your organization (such as Customer Support, Sales Engineering, or Product Management) to store knowledge about processes, methodologies, or other internal technical documents such as PRDs, Sprint Retros, or other docs you wish to keep internally across your organization.
+
+## Improvements:
+- **Commit Multiple Changes** - You can now commit multiple changed documents in a single commit. There is a new section at the top of the home/repo page called "Commit Changes".
+- **Video Links** - Youtube video links are now automatically embedded as a video player in docs.
+- **Tags** - You can now easily manage (add, remove, or rename) tags on any of your docs directly from within the Home Page, Everything Page, or from within a specific repository.
+- **Assigning Docs** - You can now assign a doc to multiple users at the same time, using the existing `Assign` feature from the doc sidebar area.
+- **Creating Docs from PRs** - When creating a new doc from a Pull Request and manually entering a PR number, the new doc will be created on the PR branch instead of the default branch.
+- **Doc Requests** - A doc request will automatically be marked as completed once you've merged its associated doc to the default branch. Note, that this requires installing the Swimm GitHub App.
+- **Swimm Verify Check Run** - You can rerun an existing Swimm Verify check run via the Swimm GitHub App in cases, for example, when a check run is canceled or if there is an issue with the initial check run.
+- **Providing Feedback to Swimm** - We improved our feedback form which is available in the Help Center.
+- **Keyboard Shortcuts** - Improved the keyboard shortcuts section for Swimm’s Editor - also available in the Help Center.
+- **Help Articles** - The Help Center now has a new section with many helpful articles to help you get started with Swimm.
+
+## Bug Fixes:
+- Fixed when the Swimm GitHub App is installed, but the initial `.swm/swimm.json` file is not merged.
+- Fixed preview mode UI issues with long titles and placeholders on templates.
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="0.9.5" />
