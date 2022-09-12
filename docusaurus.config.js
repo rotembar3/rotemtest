@@ -49,7 +49,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   // see https://docusaurus.io/docs/api/docusaurus-config#scripts
   scripts: 
   [
-
+    {
+      src:
+        '/js/tags.js',
+        async: false,
+    }
   ],
   plugins: [
     [
