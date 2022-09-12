@@ -37,7 +37,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'Learn More',
-    link_href: '/docs/publishing-content/third-party'
+    link_href: '/docs/ide-integrations/third-Party-knowledgebases'
   },
   {
     title: 'Documentation Strategies',

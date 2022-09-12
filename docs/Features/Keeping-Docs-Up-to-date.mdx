@@ -1,0 +1,48 @@
+---
+id: Keeping Docs Up to Date
+slug: keeping-docs-up-to-date
+sidebar_position: 4
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Keeping Docs Up to Date
+
+### Swimm's Patented Auto-sync Feature
+
+Swimm’s Auto-sync automatically keeps code snippets up to date with routine code changes via GitHub. 
+
+### What kinds of things can Swimm automatically sync?​
+
+**Scenarios handled by Auto-sync:** 
+
+- You implemented a new method or function, and so the code that follows below is likely shifted down a bit.
+- You added or removed a line that was there to help with debugging.
+- You renamed a variable or changed function or method arguments.
+- You renamed a file or directory.
+- You added a type cast to resolve warnings about an ambiguous callback.
+- You can use Smart Tokens & Paths from your codebase inside your docs (via the Swimm editor) such that Swimm will keep them in sync with your code.
+
+**What happens when Auto-sync needs more information?​**
+
+If Auto-sync decides that a change is impactful enough that Swimm oversight is needed, the following things happen:
+- The Swimm verification check will fail. Depending on your configuration, this means it will block the commit or Pull Request until the issue is fixed, or it will open an issue that needs to be resolved within a certain time frame.
+- Any affected documentation will be marked as potentially out of date and you will be updated.
+
+### Automatic coupling code
+
+As you edit your docs, you will likely mention some references to parts of the code and Swimm offers Auto-detection and suggestions for these code references.
+
+For example:
+“How to add a new LoggingComponent in our app”
+
+In this example, `LoggingComponent` is a reference to a class in the code. Swimm's general recommendation for maintaining up-to-date documents is to include important code references in the documentation. These create a stronger connection between the code and the explanation. 
+
+With Swimm’s automatic detection, it is even more fun and easy. In the example above, Swimm is likely to detect that `LoggingComponent` is a code reference and will notify you as you type. 
+
+Here’s a quick look at how the auto-code coupling works.
+
+![Sign into GitHub](../../static/img/Features6.gif)
+
+
+
