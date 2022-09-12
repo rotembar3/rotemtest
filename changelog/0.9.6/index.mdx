@@ -1,0 +1,35 @@
+---
+slug: release-0.9.6
+title: Swimm 0.9.6 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2022-09-12
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+
+# Swimm 0.9.6 Has Been Released!
+
+We're pleased to announce the availability of **Swimm 0.9.6**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="0.9.6" />
+
+<SwimmReleaseVideo version="0.9.6" />
+
+## New Features:
+- **Publish to Cloud Docs** - Publish your Repo Docs to the Cloud so that anyone from your workspace can review - even if they don't have access to your repo.
+- **Changing the Order of Repositories**- You can now change the order of repositories displayed on the left-side navigation. To change the order, hover over any repository and drag the repository using the new 8-pin icon. Note, that changing the order only affects your Swimm account and not other members' accounts.
+- **Recommended Files to Document** - Based on Swimm insights about your repository, we now make recommendations for files that you may wish to document. Recommendations can be found under "Insights" and are a great place to get started. 
+- **New Documentation Hub** - Located on the left navigation panel, Admins can now add links to other documentation sources - all in one place - with Swimm's new Documentation Hub. 
+- **Publish to Cloud Docs** - Publish your repo docs to the cloud for anyone from your workspace to view, even if they don't have access to your repo.  
+
+## Improvements:
+- **Doc from PR** - Additions or changes in any `package-lock.json` or `yarn.lock` file will not appear in a doc created with the Doc from PR feature.
+- **Adding Tags to Doc Drafts** - It is now possible to add tags to a doc draft before the doc is committed. Tags are saved in the doc when the draft is committed.
+- **Timeout Added to Swimm Verify Checks** - A timeout was added to the Swimm Verify check to let users re-run a check which didn't finish due to an internal issue.  
+- **Slack Notifications** - When a user renames an existing doc and commits it, no Slack notifications are sent to the Admin-defined channel in Swimm's Slack app.
+- **CodeBlock Syntax Highlighting** - Now, CodeBlocks will display a colorful theme and a language selector.
+
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="0.9.6" />

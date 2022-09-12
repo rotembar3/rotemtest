@@ -43,7 +43,7 @@ You can then use `Link`[<sup id="1hIOVD">↓</sup>](#f-1hIOVD) to form your link
 ⬜ 27     
 ⬜ 28     ## Other Areas To Explore:
 🟩 29     
-🟩 30     In addition to the <Link to="/docs/quickstart">quickstart guide</Link>, we've broken down lots of great
+🟩 30     In addition to the <Link to="/docs/getting-started-guide">Quick Start Guide</Link>, we've broken down lots of great
 ⬜ 31     information in the following categories:
 ⬜ 32     
 ```
@@ -55,7 +55,7 @@ You can then use `Link`[<sup id="1hIOVD">↓</sup>](#f-1hIOVD) to form your link
 
 <span id="f-1hIOVD">Link</span>[^](#1hIOVD) - "docs/index.mdx" L30
 ```mdx
-In addition to the <Link to="/docs/quickstart">quickstart guide</Link>, we've broken down lots of great
+In addition to the <Link to="/doc/getting-started-guide">Quick Start Guide</Link>, we've broken down lots of great
 ```
 
 <span id="f-2gM24f">Link</span>[^](#2gM24f) - "docs/index.mdx" L8
